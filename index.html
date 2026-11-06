@@ -1,15 +1,81 @@
 <!doctype html>
-<html>
+<html lang="en" data-bs-theme="dark">
   <head>
     <title>Atul's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
+      <nav class="navbar navbar-expand-lg rounded-4 m-3 px-3" style="background-color: #0b1f3a">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3 text-white" href="index.html">Portfolio</a>
+
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#portfolioNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="portfolioNavbar">
+            <ul class="navbar-nav mx-auto nav-pills gap-2">
+              <li class="nav-item">
+                <a class="nav-link active px-4" style="background-color: #2563eb" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">Projects</a>
+              </li>
+            </ul>
+
+            <!-- Social media icons -->
+            <div class="d-flex align-items-center gap-2">
+              <a class="social-link" href="https://web.whatsapp.com/" target="_blank">
+                <img src="images/whatsapp.svg" alt="WhatsApp" />
+              </a>
+
+              <a class="social-link" href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" />
+              </a>
+
+              <a class="social-link" href="https://discord.com/" target="_blank">
+                <img src="images/discord.svg" alt="Discord" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<!-- <header>
       <table>
         <tr>
           <td>
-            <div id="portfolio">Portfolio.</div>
+            
           </td>
           <td
             class="home"
@@ -66,4 +132,4 @@
       <p class="footer-credit">© Built By H Atul, for learning purposes</p>
     </footer>
   </body>
-</html>
+</html> -->
